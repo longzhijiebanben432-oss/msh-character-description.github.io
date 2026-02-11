@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>キャラクター紹介サイト</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="main">
+    <h1>キャラ紹介</h1>
+    <hr>
+    <h2>-ようこそ-</h2>
+
+    <div class="container">
+      <p>ここではましゅまろ制作の脱出マップに登場するオリジナルキャラの設定などを紹介しています</p>
+      <p>上のセレクターからキャラを選択すると表示されます</p>
+    </div>
+
+    <p>キャラクターを選択</p>
+    <div class="select-area">
+      <select id="chara" class="select">
+        <option value="1st">カテナ</option>
+        <option value="2nd">ジライ</option>
+        <option value="3rd">メイ</option>
+        <option value="4th">ハテナさん</option>
+        <option value="5th">海露</option>
+        <option value="6th">フローギアス</option>
+        <option value="7th">ローレライ</option>
+      </select>
+      <button id="calc">検索🔎</button>
+    </div>
+
+    <!-- キャラ画像を白い四角の中に置く -->
+    <img src="images/1st.png" alt="キャラ画像" class="chara-img" id="chara-img">
+
+    <div id="rslt"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
