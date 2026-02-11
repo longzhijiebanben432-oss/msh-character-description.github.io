@@ -17,13 +17,14 @@ body {
 
 .container {
   text-align: left;
-  width: 30em;
-  max-width: 90%;
+  width: 100%;
+  max-width: 500px;  /* 好きな最大幅 */
   margin: 3vh auto;
   border: solid #ffb6d5 1px;
   border-radius: 15px;
   padding: 1em 2em;
   background-color: #fff7fb;
+  box-sizing: border-box; /* ← これ重要 */
 }
 
 #rslt {
