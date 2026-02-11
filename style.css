@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgb(252, 197, 223), rgb(255, 235, 245));
+  font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+}
+
+.main {
+  max-width: 650px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 5vh 5vw 20vh 5vw;
+  border-radius: 25px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.container {
+  text-align: left;
+  width: 30em;
+  max-width: 90%;
+  margin: 3vh auto;
+  border: solid #ffb6d5 1px;
+  border-radius: 15px;
+  padding: 1em 2em;
+  background-color: #fff7fb;
+}
+
+#rslt {
+  font-size: 1.3em;
+}
+
+.select-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.select {
+  width: 220px;
+  padding: 10px 16px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: 2px solid #ff9acb;
+  background-color: #fff0f7;
+  color: #ff4f9a;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+}
+
+#calc {
+  padding: 10px 22px;
+  font-size: 15px;
+  border-radius: 30px;
+  border: 2px solid #ff9acb;
+  background-color: #fff0f7;
+  color: #ff4f9a;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+#calc:hover {
+  background-color: #ff9acb;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* キャラ画像 */
+.chara-img {
+  width: 240px;
+  height: auto;
+  display: block;
+  margin: 60px auto 0 20px; /* 上20px, 横中央 */
+  transition: opacity 0.4s ease;
+}
+
+.chara-img.fade-out {
+  opacity: 0;
+}
