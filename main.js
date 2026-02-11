@@ -11,3 +11,11 @@ document.getElementById("calc").addEventListener("click", function () {
     img.classList.remove("fade-out");
   }, 400);
 });
+
+// ページ読み込み時のローディング演出
+window.addEventListener("load", () => {
+  const loader = document.getElementById("loader");
+  setTimeout(() => {
+    loader.classList.add("fade-out");
+  }, 1500); // 2秒後にフェードアウト
+});
