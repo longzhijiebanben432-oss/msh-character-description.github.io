@@ -30,31 +30,46 @@
         <p>
           ここではましゅまろ制作の脱出マップに登場するオリジナルキャラの設定などを紹介しています
         </p>
-        <p>上のセレクターからキャラを選択すると表示されます</p>
+        <p>下のセレクターからキャラを選択すると表示されます</p>
       </div>
 
       <p>キャラクターを選択</p>
       <div class="select-area">
-        <select id="chara" class="select">
+        <select id="chara" class="select" size="8">
           <option value="1st">カテナ</option>
           <option value="2nd">ジライ</option>
-          <option value="3rd">メイ</option>
-          <option value="4th">ハテナさん</option>
-          <option value="5th">海露</option>
-          <option value="6th">フローギアス</option>
-          <option value="7th">ローレライ</option>
+          <option value="3rd">歌姫</option>
+          <option value="4th">メイ</option>
+          <option value="5th">ハテナさん</option>
+          <option value="6th">帳</option>
+          <option value="7th">紗奈</option>
+          <option value="8th">フローギアス</option>
+          <option value="9th">折宮ガム</option>
+          <option value="10th">猫橋イト</option>
+          <option value="11th">海露</option>
+          <option value="12th">ローレライ</option>
+          <option value="13th">エデン</option>
+          <option value="14th">ミカ</option>
+          <option value="15th">たたら</option>
+          <option value="16th">スカーケル</option>
+          <option value="17th">フィーネ</option>
+          <option value="18th">折宮若葉</option>
+          <option value="19th">猫橋水河</option>
+          <option value="20th">願来冷紗</option>
+          <option value="21th">依神手々</option>
         </select>
-        <button id="calc">検索🔎</button>
       </div>
 
-      <img
-        src="images/1st.png"
-        alt="キャラ画像"
-        class="chara-img"
-        id="chara-img"
-      />
+      <div class="chara-area">
+        <img
+          src="images/1st.png"
+          alt="キャラ画像"
+          class="chara-img"
+          id="chara-img"
+        />
+        <div id="rslt"></div>
+      </div>
 
-      <div id="rslt"></div>
     </div>
 
     <script src="main.js"></script>
